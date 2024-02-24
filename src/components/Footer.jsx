@@ -19,7 +19,7 @@ export const Footer = () => {
                 <SubFooter>
                     {middleFooterLinks.map((FooterLink, index) => (
                         <li key={index}>
-                            <Link href={FooterLink.path} key={index}>
+                            <Link href={FooterLink.path} key={index} id={FooterLink.id}>
                                 {FooterLink.icon}
                                 {FooterLink.title}
                             </Link>
@@ -29,10 +29,10 @@ export const Footer = () => {
                 <SubFooter>
                     {leftFooterLinks.map((FooterLink, index) => (
                         <li key={index}>
-                            <Link href={FooterLink.path} key={index}>
+                            <p key={index}>
                                 {FooterLink.icon}
                                 {FooterLink.title}
-                            </Link>
+                            </p>
                         </li>
                     ))}
                 </SubFooter>

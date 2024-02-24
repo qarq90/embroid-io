@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
-export const Input = ({placeholder}) => {
+export const Input = ({placeholder, ...rest}) => {
     return (
         <>
-            <StyledInput placeholder={placeholder} />
+            <StyledInput {...rest} placeholder={placeholder} />
         </>
     )
 }
@@ -14,11 +14,11 @@ const StyledInput = styled.input`
   font-size: 1.25rem;
   border-radius: 5px;
   color: var(--secondary-text-color);
-  background-color: var(--secondary-background-color);
   border: 1px var(--secondary-background-color) solid;
+  background-color: rgba(63, 63, 63, 0.5);
   transition: 0.5s all linear;
   padding-left: 1rem;
-  margin: 0.5rem 0;
+  margin: 0.15rem 0;
 
   &:focus {
     outline: none;

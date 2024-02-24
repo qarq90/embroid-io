@@ -1,5 +1,5 @@
-import {FaShirt} from "react-icons/fa6";
-import {FaRegCopyright} from "react-icons/fa";
+import {FaMailBulk, FaPhone, FaRegCopyright} from "react-icons/fa";
+import ScissorsIcon from "../../public/icons/logo";
 
 export const rightFooterLinks = [
     {
@@ -10,23 +10,20 @@ export const rightFooterLinks = [
 
 export const middleFooterLinks = [
     {
-        icon: <FaShirt/>,
+        icon: <ScissorsIcon/>,
         title: "Embroidery Enterprises",
-        path: "/"
+        path: "/",
+        id: "logo-link"
     },
 ];
 
 export const leftFooterLinks = [
     {
-        title: "Works",
-        path: "/works"
+        icon: <FaPhone/>,
+        title: "+91 9757208990",
     },
     {
-        title: "About",
-        path: "/about"
-    },
-    {
-        title: "Contact",
-        path: "/contact"
+        icon: <FaMailBulk/>,
+        title: "abc@gmail.com",
     },
 ]

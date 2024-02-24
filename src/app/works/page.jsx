@@ -1,8 +1,13 @@
+"use client"
 
-export default function Works(){
-    return(
+import {Nav} from "@/components/Nav";
+import {Footer} from "@/components/Footer";
+
+export default function Works() {
+    return (
         <>
-            <h1>Works</h1>
+            <Nav/>
+            <Footer/>
         </>
     )
 }

@@ -2,7 +2,7 @@
     --primary-background-color: #202020;
     --priamry-text-color: #9f9f9f;
     --secondary-background-color: #3f3f3f;
-    --secondary-text-color: #ffffff;
+    --secondary-text-color: #cccccc;
 
     /*  Nav & Footer  */
     --NF-background-color: #101010;
@@ -15,5 +15,21 @@
 }
 
 body {
+    overflow-x: hidden;
     background-color: var(--primary-background-color);
+}
+
+.contact-page{
+    /*background-image: url("../../public/img/gridC.png");*/
+    backdrop-filter: blur(20px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#home-image {
+    background-image: url("../../public/img/hor (8).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }

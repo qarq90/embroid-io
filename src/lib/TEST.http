@@ -1,0 +1,10 @@
+POST http://localhost:3000/api/post/sendDetails
+Content-Type: application/json
+
+{
+  "fName": "dawg",
+  "sName": "90",
+  "email": "asldn@aljsn.aom",
+  "phone": "1234567890",
+  "message": "hello"
+}

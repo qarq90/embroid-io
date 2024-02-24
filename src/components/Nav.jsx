@@ -8,7 +8,7 @@ export const Nav = () => {
             <NavContainer>
                 {NavLinks.map((navLink, index) => (
                     <li key={index}>
-                        <Link href={navLink.path} key={index}>
+                        <Link href={navLink.path} key={index} id={navLink.id}>
                             {navLink.icon}
                             {navLink.title}
                         </Link>
@@ -29,6 +29,10 @@ const NavContainer = styled.div`
   > li {
     padding: 1rem 2rem;
     flex-wrap: wrap;
+
+    > #logo-link {
+      font-weight: bold;
+    }
 
     > a {
       display: flex;

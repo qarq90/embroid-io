@@ -1,7 +1,14 @@
 import {FaMessage, FaWandMagicSparkles} from "react-icons/fa6";
 import {FaHome, FaQuestionCircle} from "react-icons/fa";
+import ScissorsIcon from "../../public/icons/logo";
 
 export const NavLinks = [
+    {
+        icon: <ScissorsIcon/>,
+        title: "Embroidery Enterprises",
+        path: "/",
+        id: "logo-link"
+    },
     {
         icon: <FaHome/>,
         title: "Home",
