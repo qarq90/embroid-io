@@ -1,20 +1,23 @@
 import styled from "styled-components";
+import {FaMailBulk, FaWhatsapp} from "react-icons/fa";
+import {FaLocationPin} from "react-icons/fa6";
 
 export const Details = () => {
     return (
         <StyledDetails>
             <div>
-                <DetailHeader>Phone Number</DetailHeader>
-                <DetailContent>+91 8879662240</DetailContent>
+                <DetailHeader><FaWhatsapp/>WhatsApp</DetailHeader>
+                <DetailContent>+91 7738022001</DetailContent>
             </div>
             <div>
-                <DetailHeader>Email</DetailHeader>
-                <DetailContent>abc@gmail.com</DetailContent>
+                <DetailHeader><FaMailBulk/> Email</DetailHeader>
+                <DetailContent>aqureshiofc@gmail.com</DetailContent>
             </div>
             <div>
-                <DetailHeader>Address</DetailHeader>
-                <DetailContent>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea id minus nihil numquam optio, porro
-                    provident repellendus rerum soluta veritatis.
+                <DetailHeader><FaLocationPin/> Address</DetailHeader>
+                <DetailContent>A-603, Rustomjee Central Park,
+                    Andheri East
+                    Mumbai, Maharashtra
                 </DetailContent>
             </div>
         </StyledDetails>
@@ -29,10 +32,21 @@ const StyledDetails = styled.div`
   > div {
     padding: 1rem;
   }
+
+  @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    width: 95%;
+    font-size: 200%;
+    padding: 1rem;
+  }
 `;
 
 const DetailHeader = styled.h2`
   color: var(--priamry-text-color);
+  display: flex;
+  align-items: center;
+  >svg{
+    margin-right: 1rem;
+  }
 `;
 
 const DetailContent = styled.p`

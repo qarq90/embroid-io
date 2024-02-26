@@ -47,6 +47,11 @@ const FooterContainer = styled.div`
   justify-content: space-between;
   list-style-type: none;
   background-color: var(--NF-background-color);
+  @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    width: 55rem;
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 const SubFooter = styled.div`
@@ -61,6 +66,9 @@ const SubFooter = styled.div`
       text-decoration: none;
       align-items: center;
       color: var(--NF-text-color);
+      @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        font-size: 2rem;
+      }
 
       > svg {
         padding-right: 0.5rem;
@@ -73,9 +81,18 @@ const SubFooter = styled.div`
       align-items: center;
       color: var(--NF-text-color);
 
+      @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        font-size: 2rem;
+      }
+
       > svg {
         padding-right: 0.5rem;
       }
     }
+  }
+
+  @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    display: flex;
+    flex-direction: column;
   }
 `;

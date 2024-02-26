@@ -1,10 +1,10 @@
 export const gridImages = [
-    {src: "/img/hor (8).jpg", alt: "gridA", content: "gridA"},
-    {src: "/img/hor (8).jpg", alt: "gridB", content: "gridB"},
-    {src: "/img/hor (8).jpg", alt: "gridC", content: "gridC"},
-    {src: "/img/hor (8).jpg", alt: "gridD", content: "gridD"},
-    {src: "/img/hor (8).jpg", alt: "gridE", content: "gridE"},
-    {src: "/img/hor (8).jpg", alt: "gridF", content: "gridF"},
+    {src: "/img/IMG_4318.png", alt: "gridA", content: "Geometric Patterns"},
+    {src: "/img/IMG_4086.png", alt: "gridB", content: "FLower Vines"},
+    {src: "/img/IMG_4074.png", alt: "gridC", content: "Royal Designs"},
+    {src: "/img/IMG_4025.png", alt: "gridD", content: "Flower Grid"},
+    {src: "/img/IMG_4078.png", alt: "gridE", content: "Geometric Petals"},
+    {src: "/img/IMG_4195.png", alt: "gridF", content: "Black Spirals"},
 ]
 
 export const dualGrid = [

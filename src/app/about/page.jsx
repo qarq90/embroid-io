@@ -4,8 +4,7 @@ import {Nav} from "@/components/Nav";
 import {Footer} from "@/components/Footer";
 import {Tigraph} from "@/components/ui/Tigraph";
 import {Grid} from "@/components/Grid";
-import {dualGrid, gridImages} from "@/lib/objAbout";
-import {Dual} from "@/components/about/Dual";
+import {gridImages} from "@/lib/objAbout";
 import {EmptyBlock} from "@/components/EmptyBlock";
 
 export default function About() {
@@ -20,9 +19,6 @@ export default function About() {
                      paragraph={"Since our inception, we have been committed to excellence, delivering beautifully embroidered products to our customers."}/>
             <Grid gridImages={gridImages}/>
             <EmptyBlock/>
-            <Tigraph title={"Our Process"}
-                     paragraph={"We take pride in our meticulous process, ensuring that every stitch is perfect and every design is brought to life with precision."}/>
-            <Dual dualGrid={dualGrid}/>
             <Footer/>
         </>
     )

@@ -1,12 +1,12 @@
 :root {
-    --primary-background-color: #202020;
-    --priamry-text-color: #9f9f9f;
-    --secondary-background-color: #3f3f3f;
-    --secondary-text-color: #cccccc;
+    --primary-background-color: #f5e8dd;
+    --priamry-text-color: #202020;
+    --secondary-background-color: #f5e8dd;
+    --secondary-text-color: #202020;
 
     /*  Nav & Footer  */
-    --NF-background-color: #101010;
-    --NF-text-color: #9f9f9f;
+    --NF-background-color: #1d1d1d;
+    --NF-text-color: #ccc;
 }
 
 * {
@@ -19,8 +19,7 @@ body {
     background-color: var(--primary-background-color);
 }
 
-.contact-page{
-    /*background-image: url("../../public/img/gridC.png");*/
+.contact-page {
     backdrop-filter: blur(20px);
     background-size: cover;
     background-position: center;
@@ -28,8 +27,15 @@ body {
 }
 
 #home-image {
-    background-image: url("../../public/img/hor (8).jpg");
+    background-image: url("../../public/img/IMG_4078.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.con-tigraph {
+    background-color: crimson;
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        padding: 2rem 10rem;
+    }
 }

@@ -91,4 +91,7 @@ const StyledForm = styled.div`
   width: 40%;
   padding: 1rem;
   border-radius: 20px;
+  @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    width: 98%;
+  }
 `;

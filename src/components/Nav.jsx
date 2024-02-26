@@ -45,4 +45,32 @@ const NavContainer = styled.div`
       }
     }
   }
+
+  @media screen and (min-device-width: 320px) and (max-device-width: 480px){
+    width: 55rem;
+    height: auto;
+    font-size: 1.5rem;
+    flex-direction: column;
+
+    > li {
+      padding: 1rem 2rem;
+      flex-wrap: wrap;
+
+      > #logo-link {
+        font-weight: bold;
+      }
+
+      > a {
+        font-size: 200%;
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+        color: var(--NF-text-color);
+
+        > svg {
+          padding-right: 1rem;
+        }
+      }
+    }
+  }
 `;

@@ -5,7 +5,7 @@ import ScissorsIcon from "../../public/icons/logo";
 export const NavLinks = [
     {
         icon: <ScissorsIcon/>,
-        title: "Embroidery Enterprises",
+        title: "Kingdom Enterprises",
         path: "/",
         id: "logo-link"
     },

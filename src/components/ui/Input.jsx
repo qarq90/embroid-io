@@ -24,4 +24,11 @@ const StyledInput = styled.input`
     outline: none;
     border: 1px var(--secondary-background-color) solid;
   }
+
+  @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    background-color: #ccc;
+    font-size: 250%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
 `;

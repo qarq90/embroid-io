@@ -11,6 +11,7 @@ export default function Home() {
     return (
         <>
             <Nav/>
+            <div className="home-body"></div>
             <EmptyBlock/>
             <Tigraph title={"The Art of Embroidery"}
                      paragraph={"Embroidery is a timeless craft that showcases the skill and creativity of the artisan. From intricate patterns to delicate embellishments, each piece of embroidery is a labor of love."}/>

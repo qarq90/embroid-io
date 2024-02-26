@@ -11,7 +11,7 @@ export const rightFooterLinks = [
 export const middleFooterLinks = [
     {
         icon: <ScissorsIcon/>,
-        title: "Embroidery Enterprises",
+        title: "Kingdom Enterprises",
         path: "/",
         id: "logo-link"
     },
