@@ -5,8 +5,8 @@ export const Dual = ({dualGrid}) => {
         <>
             <StyledDual>
                 {dualGrid.map((item, index) => (
-                    <div>
-                        <StyledHolder key={index}>
+                    <div key={index}>
+                        <StyledHolder>
                             <h1>{item.title}</h1>
                             <p>{item.content}</p>
                         </StyledHolder>
