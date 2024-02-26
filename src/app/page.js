@@ -10,9 +10,7 @@ import {useEffect} from "react";
 
 export default function Home() {
     useEffect(() => {
-        window.onload = () => {
-            alert("Please Refresh the Page");
-        }
+        alert("Please Refresh the Page");
     }, [])
     return (
         <>
