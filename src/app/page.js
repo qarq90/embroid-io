@@ -6,8 +6,14 @@ import {Tigraph} from "@/components/ui/Tigraph";
 import {EmptyBlock} from "@/components/EmptyBlock";
 import {BigImage} from "@/components/_home/BigImage";
 import {HomeCards} from "@/components/_home/HomeCards";
+import {useEffect} from "react";
 
 export default function Home() {
+    useEffect(() => {
+        window.onload = () => {
+            alert("Please Refresh the Page");
+        }
+    }, [])
     return (
         <>
             <Nav/>
